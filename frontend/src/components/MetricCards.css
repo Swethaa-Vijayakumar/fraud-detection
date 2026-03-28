@@ -1,0 +1,19 @@
+.metrics-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-bottom: 24px;
+}
+.metric-card {
+  background: #0c1225;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #1a2540;
+}
+.card-title { font-size: 11px; color: #8899bb; text-transform: uppercase; letter-spacing: 1px; }
+.card-value { font-size: 28px; color: white; margin: 8px 0; }
+.card-sub { font-size: 10px; font-weight: bold; }
+.red .card-sub { color: #ff3d6b; }
+.blue .card-sub { color: #00d4ff; }
+.purple .card-sub { color: #a855f7; }
+.green .card-sub { color: #22c55e; }

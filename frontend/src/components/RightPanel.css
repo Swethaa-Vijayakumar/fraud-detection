@@ -1,0 +1,14 @@
+.right-panel { width: 300px; padding: 20px; display: flex; flex-direction: column; gap: 20px; }
+.risk-score-box { text-align: center; }
+.score-circle { position: relative; width: 120px; margin: 20px auto; }
+.score-val { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 24px; font-weight: 800; color: #ff3d6b; }
+.circular-chart { display: block; margin: 10px auto; max-width: 100%; max-height: 250px; }
+.circle { stroke: #ff3d6b; fill: none; stroke-width: 2.8; stroke-linecap: round; }
+.status-text { color: #ff3d6b; font-size: 10px; font-weight: 800; letter-spacing: 1px; }
+
+.flex-row { display: flex; justify-content: space-between; margin-bottom: 10px; }
+.text-blue { color: #00d4ff; }
+.text-red { color: #ff3d6b; }
+.log-entry { font-size: 10px; color: #8899bb; padding: 8px 0; border-bottom: 1px solid #1a2540; }
+.log-entry.highlight { color: #ff3d6b; }
+.log-entry .time { font-weight: bold; margin-right: 8px; color: #4a5a7a; }
